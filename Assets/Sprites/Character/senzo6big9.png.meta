@@ -1,0 +1,1810 @@
+fileFormatVersion: 2
+guid: a0d6d194f1974714d915652cf3936be7
+timeCreated: 1455029983
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: senzo6big9_0
+    21300002: senzo6big9_1
+    21300004: senzo6big9_2
+    21300006: senzo6big9_3
+    21300008: senzo6big9_4
+    21300010: senzo6big9_5
+    21300012: senzo6big9_6
+    21300014: senzo6big9_7
+    21300016: senzo6big9_8
+    21300018: senzo6big9_9
+    21300020: senzo6big9_10
+    21300022: senzo6big9_11
+    21300024: senzo6big9_12
+    21300026: senzo6big9_13
+    21300028: senzo6big9_14
+    21300030: senzo6big9_15
+    21300032: senzo6big9_16
+    21300034: senzo6big9_17
+    21300036: senzo6big9_18
+    21300038: senzo6big9_19
+    21300040: senzo6big9_20
+    21300042: senzo6big9_21
+    21300044: senzo6big9_22
+    21300046: senzo6big9_23
+    21300048: senzo6big9_24
+    21300050: senzo6big9_25
+    21300052: senzo6big9_26
+    21300054: senzo6big9_27
+    21300056: senzo6big9_28
+    21300058: senzo6big9_29
+    21300060: senzo6big9_30
+    21300062: senzo6big9_31
+    21300064: senzo6big9_32
+    21300066: senzo6big9_33
+    21300068: senzo6big9_34
+    21300070: senzo6big9_35
+    21300072: senzo6big9_36
+    21300074: senzo6big9_37
+    21300076: senzo6big9_38
+    21300078: senzo6big9_39
+    21300080: senzo6big9_40
+    21300082: senzo6big9_41
+    21300084: senzo6big9_42
+    21300086: senzo6big9_43
+    21300088: senzo6big9_44
+    21300090: senzo6big9_45
+    21300092: senzo6big9_46
+    21300094: senzo6big9_47
+    21300096: senzo6big9_48
+    21300098: senzo6big9_49
+    21300100: senzo6big9_50
+    21300102: senzo6big9_51
+    21300104: senzo6big9_52
+    21300106: senzo6big9_53
+    21300108: senzo6big9_54
+    21300110: senzo6big9_55
+    21300112: senzo6big9_56
+    21300114: senzo6big9_57
+    21300116: senzo6big9_58
+    21300118: senzo6big9_59
+    21300120: senzo6big9_60
+    21300122: senzo6big9_61
+    21300124: senzo6big9_62
+    21300126: senzo6big9_63
+    21300128: senzo6big9_64
+    21300130: senzo6big9_65
+    21300132: senzo6big9_66
+    21300134: senzo6big9_67
+    21300136: senzo6big9_68
+    21300138: senzo6big9_69
+    21300140: senzo6big9_70
+    21300142: senzo6big9_71
+    21300144: senzo6big9_72
+    21300146: senzo6big9_73
+    21300148: senzo6big9_74
+    21300150: senzo6big9_75
+    21300152: senzo6big9_76
+    21300154: senzo6big9_77
+    21300156: senzo6big9_78
+    21300158: senzo6big9_79
+    21300160: senzo6big9_80
+    21300162: senzo6big9_81
+    21300164: senzo6big9_82
+    21300166: senzo6big9_83
+    21300168: senzo6big9_84
+    21300170: senzo6big9_85
+    21300172: senzo6big9_86
+    21300174: senzo6big9_87
+    21300176: senzo6big9_88
+    21300178: senzo6big9_89
+    21300180: senzo6big9_90
+    21300182: senzo6big9_91
+    21300184: senzo6big9_92
+    21300186: senzo6big9_93
+    21300188: senzo6big9_94
+    21300190: senzo6big9_95
+    21300192: senzo6big9_96
+    21300194: senzo6big9_97
+    21300196: senzo6big9_98
+    21300198: senzo6big9_99
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: senzo6big9_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 225
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 27}
+        - {x: -17, y: 17}
+        - {x: -17, y: -23}
+        - {x: -16, y: -27}
+        - {x: 17, y: -27}
+        - {x: 17, y: 27}
+    - name: senzo6big9_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 225
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 27}
+        - {x: -17, y: 11}
+        - {x: -17, y: -27}
+        - {x: 17, y: -27}
+        - {x: 17, y: 27}
+    - name: senzo6big9_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 225
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 27}
+        - {x: -10.5, y: 27}
+        - {x: -18.5, y: 14}
+        - {x: -18.5, y: -24}
+        - {x: -15.5, y: -27}
+        - {x: 18.5, y: -27}
+        - {x: 18.5, y: 19}
+        - {x: 15.5, y: 26}
+    - name: senzo6big9_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 225
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_4
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 225
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_5
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 225
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 27}
+        - {x: -17, y: -27}
+        - {x: 17, y: -27}
+        - {x: 17, y: 18}
+        - {x: 14, y: 27}
+    - name: senzo6big9_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 225
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 27}
+        - {x: -14, y: 10}
+        - {x: -16, y: -7}
+        - {x: -16, y: -27}
+        - {x: 16, y: -27}
+        - {x: 16, y: 26}
+        - {x: 12, y: 27}
+    - name: senzo6big9_7
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 225
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_8
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 225
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 225
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 27}
+        - {x: -12, y: 26}
+        - {x: -16, y: 5}
+        - {x: -16, y: -27}
+        - {x: 16, y: -27}
+        - {x: 16, y: 27}
+    - name: senzo6big9_10
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 225
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 27}
+        - {x: -19, y: 9}
+        - {x: -19, y: -27}
+        - {x: 17, y: -27}
+        - {x: 19, y: -22}
+        - {x: 19, y: 16}
+        - {x: 13, y: 27}
+    - name: senzo6big9_11
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 225
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 27}
+        - {x: -19, y: 9}
+        - {x: -19, y: -27}
+        - {x: 16, y: -27}
+        - {x: 19, y: -14}
+        - {x: 19, y: 16}
+        - {x: 8, y: 27}
+    - name: senzo6big9_12
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 225
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 27}
+        - {x: -17, y: 26}
+        - {x: -21, y: 5}
+        - {x: -21, y: -27}
+        - {x: 15, y: -27}
+        - {x: 21, y: -7}
+        - {x: 21, y: 19}
+        - {x: 12, y: 27}
+    - name: senzo6big9_13
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 225
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 27}
+        - {x: -17, y: 26}
+        - {x: -21, y: 5}
+        - {x: -21, y: -27}
+        - {x: 15, y: -27}
+        - {x: 21, y: -7}
+        - {x: 21, y: 19}
+        - {x: 12, y: 27}
+    - name: senzo6big9_14
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 225
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 27}
+        - {x: -17, y: -27}
+        - {x: 17, y: -27}
+        - {x: 17, y: 18}
+        - {x: 14, y: 27}
+    - name: senzo6big9_15
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 225
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 27}
+        - {x: -12, y: 25}
+        - {x: -16, y: 16}
+        - {x: -16, y: -27}
+        - {x: 16, y: -27}
+        - {x: 16, y: 26}
+        - {x: 15, y: 27}
+    - name: senzo6big9_16
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 225
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 27}
+        - {x: -12.5, y: 25}
+        - {x: -16.5, y: 16}
+        - {x: -16.5, y: -27}
+        - {x: 16.5, y: -27}
+        - {x: 16.5, y: 27}
+    - name: senzo6big9_17
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 225
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 27}
+        - {x: -18, y: 12}
+        - {x: -18, y: -27}
+        - {x: 18, y: -27}
+        - {x: 18, y: 27}
+    - name: senzo6big9_18
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 225
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 27}
+        - {x: -12.5, y: 27}
+        - {x: -20.5, y: 14}
+        - {x: -20.5, y: -27}
+        - {x: 17.5, y: -27}
+        - {x: 20.5, y: -6}
+        - {x: 20.5, y: 13}
+        - {x: 12.5, y: 26}
+    - name: senzo6big9_19
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 225
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 27}
+        - {x: -18, y: 25}
+        - {x: -22, y: 16}
+        - {x: -22, y: -27}
+        - {x: 15, y: -27}
+        - {x: 22, y: 2}
+        - {x: 22, y: 15}
+        - {x: 10, y: 27}
+    - name: senzo6big9_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 169
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 27}
+        - {x: -12, y: 25}
+        - {x: -16, y: 16}
+        - {x: -16, y: -27}
+        - {x: 16, y: -27}
+        - {x: 16, y: 26}
+        - {x: 15, y: 27}
+    - name: senzo6big9_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 169
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_22
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 169
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_23
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 169
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 27}
+        - {x: -10, y: 23}
+        - {x: -16, y: 9}
+        - {x: -16, y: -27}
+        - {x: 16, y: -27}
+        - {x: 16, y: 27}
+    - name: senzo6big9_24
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 169
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 27}
+        - {x: -17, y: 15}
+        - {x: -17, y: -27}
+        - {x: 17, y: -27}
+        - {x: 17, y: 21}
+        - {x: 10, y: 27}
+    - name: senzo6big9_25
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 169
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 26}
+        - {x: 11, y: 27}
+        - {x: -11, y: 27}
+        - {x: -18, y: 15}
+        - {x: -18, y: -27}
+        - {x: 12, y: -27}
+        - {x: 16, y: -26}
+        - {x: 18, y: -13}
+        - {x: 18, y: 24}
+    - name: senzo6big9_26
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 169
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 27}
+        - {x: -17, y: -27}
+        - {x: 17, y: -27}
+        - {x: 17, y: 18}
+        - {x: 14, y: 27}
+    - name: senzo6big9_27
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 169
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -17}
+        - {x: -15, y: -27}
+        - {x: 17, y: -27}
+        - {x: 17, y: 26}
+        - {x: 12, y: 27}
+        - {x: -9, y: 27}
+        - {x: -17, y: 12}
+    - name: senzo6big9_28
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 169
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -24}
+        - {x: -16, y: -27}
+        - {x: 19, y: -27}
+        - {x: 19, y: 19}
+        - {x: 18, y: 27}
+        - {x: -16, y: 27}
+        - {x: -19, y: 18}
+    - name: senzo6big9_29
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 169
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 27}
+        - {x: -21, y: 12}
+        - {x: -21, y: -27}
+        - {x: -2, y: -27}
+        - {x: 21, y: -22}
+        - {x: 21, y: 27}
+    - name: senzo6big9_30
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 169
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 27}
+        - {x: -19, y: 9}
+        - {x: -19, y: -27}
+        - {x: 17, y: -27}
+        - {x: 19, y: -22}
+        - {x: 19, y: 16}
+        - {x: 13, y: 27}
+    - name: senzo6big9_31
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 169
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 27}
+        - {x: -19, y: 9}
+        - {x: -19, y: -27}
+        - {x: 17, y: -27}
+        - {x: 19, y: -23}
+        - {x: 19, y: 16}
+        - {x: 12, y: 27}
+    - name: senzo6big9_32
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 169
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 27}
+        - {x: -10, y: 27}
+        - {x: -12, y: 24}
+        - {x: -19, y: 0}
+        - {x: -19, y: -27}
+        - {x: 19, y: -27}
+        - {x: 19, y: 16}
+        - {x: 14, y: 26}
+    - name: senzo6big9_33
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 169
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 27}
+        - {x: -20, y: 4}
+        - {x: -20, y: -27}
+        - {x: 0, y: -27}
+        - {x: 20, y: -22}
+        - {x: 20, y: 9}
+        - {x: 11, y: 27}
+    - name: senzo6big9_34
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 173
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 25}
+        - {x: -21, y: -25}
+        - {x: 7, y: -25}
+        - {x: 21, y: -14}
+        - {x: 21, y: 12}
+        - {x: 11, y: 25}
+    - name: senzo6big9_35
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 173
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -12, y: 25}
+        - {x: -18, y: 14}
+        - {x: -18, y: -19}
+        - {x: -12, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 8}
+        - {x: 13, y: 24}
+    - name: senzo6big9_36
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 173
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 25}
+        - {x: -20, y: -25}
+        - {x: 14, y: -25}
+        - {x: 20, y: -23}
+        - {x: 20, y: 0}
+        - {x: 9, y: 25}
+    - name: senzo6big9_37
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 173
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -11, y: 25}
+        - {x: -18, y: 10}
+        - {x: -18, y: -25}
+        - {x: 11, y: -25}
+        - {x: 15, y: -23}
+        - {x: 18, y: -12}
+        - {x: 18, y: 13}
+    - name: senzo6big9_38
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 173
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 25}
+        - {x: -13, y: 25}
+        - {x: -16, y: 23}
+        - {x: -18, y: 13}
+        - {x: -18, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 22}
+        - {x: 13, y: 24}
+    - name: senzo6big9_39
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 173
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 25}
+        - {x: -14, y: 25}
+        - {x: -19, y: 17}
+        - {x: -19, y: -19}
+        - {x: -17, y: -25}
+        - {x: -1, y: -25}
+        - {x: 19, y: -19}
+        - {x: 19, y: 7}
+    - name: senzo6big9_40
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 122
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_41
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 113
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 25}
+        - {x: 10, y: 27}
+        - {x: -14, y: 27}
+        - {x: -16, y: 25}
+        - {x: -16, y: -27}
+        - {x: 11, y: -27}
+        - {x: 13, y: -24}
+        - {x: 16, y: -8}
+        - {x: 16, y: 18}
+    - name: senzo6big9_42
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 113
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_43
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 113
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 27}
+        - {x: -19, y: 24}
+        - {x: -19, y: -27}
+        - {x: 19, y: -27}
+        - {x: 19, y: 27}
+    - name: senzo6big9_44
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 113
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_45
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 113
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -27}
+        - {x: 17, y: -27}
+        - {x: 17, y: 27}
+        - {x: -17, y: 27}
+    - name: senzo6big9_46
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 113
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 27}
+        - {x: -12.5, y: 27}
+        - {x: -17.5, y: 19}
+        - {x: -17.5, y: -19}
+        - {x: -16.5, y: -27}
+        - {x: 14.5, y: -27}
+        - {x: 17.5, y: -5}
+        - {x: 17.5, y: 22}
+    - name: senzo6big9_47
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 113
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 27}
+        - {x: -18, y: 17}
+        - {x: -18, y: -27}
+        - {x: 12, y: -27}
+        - {x: 17, y: -8}
+        - {x: 18, y: -3}
+        - {x: 18, y: 27}
+    - name: senzo6big9_48
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 113
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 26.5}
+        - {x: -22, y: 17.5}
+        - {x: -22, y: -17.5}
+        - {x: -15, y: -26.5}
+        - {x: 22, y: -26.5}
+        - {x: 22, y: 26.5}
+    - name: senzo6big9_49
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 113
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 26.5}
+        - {x: -14, y: 23.5}
+        - {x: -22, y: 9.5}
+        - {x: -22, y: -10.5}
+        - {x: -17, y: -26.5}
+        - {x: 15, y: -26.5}
+        - {x: 22, y: -6.5}
+        - {x: 22, y: 25.5}
+        - {x: 21, y: 26.5}
+    - name: senzo6big9_50
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 113
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 26.5}
+        - {x: -21, y: 22.5}
+        - {x: -21, y: -6.5}
+        - {x: -16, y: -26.5}
+        - {x: 14, y: -26.5}
+        - {x: 21, y: -6.5}
+        - {x: 21, y: 26.5}
+    - name: senzo6big9_51
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 113
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 26.5}
+        - {x: -21.5, y: -23.5}
+        - {x: -20.5, y: -26.5}
+        - {x: 13.5, y: -26.5}
+        - {x: 18.5, y: -9.5}
+        - {x: 21.5, y: 3.5}
+        - {x: 21.5, y: 26.5}
+    - name: senzo6big9_52
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 113
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 26.5}
+        - {x: -22.5, y: -16.5}
+        - {x: -20.5, y: -26.5}
+        - {x: 12.5, y: -26.5}
+        - {x: 14.5, y: -25.5}
+        - {x: 22.5, y: -2.5}
+        - {x: 22.5, y: 26.5}
+    - name: senzo6big9_53
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 116
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 25.5}
+        - {x: -10, y: 25.5}
+        - {x: -13, y: 23.5}
+        - {x: -17, y: 10.5}
+        - {x: -17, y: -25.5}
+        - {x: 1, y: -25.5}
+        - {x: 8, y: -24.5}
+        - {x: 17, y: -17.5}
+        - {x: 17, y: 18.5}
+    - name: senzo6big9_54
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 113
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27}
+        - {x: -23, y: 22}
+        - {x: -23, y: -27}
+        - {x: 17, y: -27}
+        - {x: 23, y: -6}
+        - {x: 23, y: 24}
+        - {x: 16, y: 27}
+    - name: senzo6big9_55
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 113
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_56
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 113
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 27}
+        - {x: -16, y: 26}
+        - {x: -16, y: -27}
+        - {x: 11, y: -27}
+        - {x: 16, y: -26}
+        - {x: 16, y: 5}
+        - {x: 9, y: 27}
+    - name: senzo6big9_57
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 113
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_58
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 113
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 21}
+        - {x: -13, y: 20}
+        - {x: -19, y: -8}
+        - {x: -19, y: -21}
+        - {x: 19, y: -21}
+        - {x: 19, y: 21}
+    - name: senzo6big9_59
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 113
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 27}
+        - {x: -19, y: 9}
+        - {x: -19, y: -27}
+        - {x: 19, y: -27}
+        - {x: 19, y: 23}
+        - {x: 12, y: 27}
+    - name: senzo6big9_60
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 58
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -18, y: 18}
+        - {x: -18, y: -19}
+        - {x: -15, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 25}
+    - name: senzo6big9_61
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 58
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -17, y: 19}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 22}
+        - {x: 15, y: 25}
+    - name: senzo6big9_62
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 58
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -17, y: 14}
+        - {x: -17, y: -23}
+        - {x: -14, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 24}
+        - {x: 16, y: 25}
+    - name: senzo6big9_63
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 57
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_64
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 57
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_65
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 57
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_66
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 57
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 27}
+        - {x: -12, y: 27}
+        - {x: -17, y: 18}
+        - {x: -17, y: -27}
+        - {x: 14, y: -27}
+        - {x: 17, y: -15}
+        - {x: 17, y: 22}
+        - {x: 12, y: 26}
+    - name: senzo6big9_67
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 57
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 27}
+        - {x: -13, y: 27}
+        - {x: -18, y: 25}
+        - {x: -19, y: 22}
+        - {x: -19, y: -27}
+        - {x: 9, y: -27}
+        - {x: 10, y: -18}
+        - {x: 19, y: 2}
+        - {x: 19, y: 23}
+    - name: senzo6big9_68
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 57
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 27}
+        - {x: -15, y: 27}
+        - {x: -19, y: 20}
+        - {x: -19, y: -19}
+        - {x: -18, y: -27}
+        - {x: 9, y: -27}
+        - {x: 11, y: -26}
+        - {x: 9, y: -8}
+        - {x: 19, y: 7}
+    - name: senzo6big9_69
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 57
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 26.5}
+        - {x: -19, y: -26.5}
+        - {x: 14, y: -26.5}
+        - {x: 19, y: -17.5}
+        - {x: 19, y: 26.5}
+    - name: senzo6big9_70
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 57
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 26.5}
+        - {x: -9.5, y: 26.5}
+        - {x: -22.5, y: 21.5}
+        - {x: -22.5, y: -14.5}
+        - {x: -19.5, y: -26.5}
+        - {x: 12.5, y: -26.5}
+        - {x: 13.5, y: -17.5}
+        - {x: 22.5, y: 1.5}
+        - {x: 22.5, y: 23.5}
+    - name: senzo6big9_71
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 57
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 26.5}
+        - {x: -23, y: -2.5}
+        - {x: -15, y: -26.5}
+        - {x: 16, y: -26.5}
+        - {x: 23, y: -2.5}
+        - {x: 23, y: 26.5}
+    - name: senzo6big9_72
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 57
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 26.5}
+        - {x: -22.5, y: -1.5}
+        - {x: -14.5, y: -26.5}
+        - {x: 12.5, y: -26.5}
+        - {x: 13.5, y: -17.5}
+        - {x: 22.5, y: 1.5}
+        - {x: 22.5, y: 26.5}
+    - name: senzo6big9_73
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 57
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 26.5}
+        - {x: -14.5, y: 26.5}
+        - {x: -18.5, y: 18.5}
+        - {x: -18.5, y: -26.5}
+        - {x: 8.5, y: -26.5}
+        - {x: 10.5, y: -25.5}
+        - {x: 18.5, y: -10.5}
+        - {x: 18.5, y: 25.5}
+    - name: senzo6big9_74
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 57
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_75
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 57
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_76
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 57
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_77
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 57
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 27}
+        - {x: -15.5, y: 24}
+        - {x: -16.5, y: 14}
+        - {x: -16.5, y: -27}
+        - {x: 16.5, y: -27}
+        - {x: 16.5, y: 23}
+        - {x: 11.5, y: 27}
+    - name: senzo6big9_78
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 57
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 27}
+        - {x: -17.5, y: 27}
+        - {x: -17.5, y: -27}
+        - {x: 12.5, y: -27}
+        - {x: 17.5, y: -9}
+        - {x: 17.5, y: 24}
+    - name: senzo6big9_79
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 57
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 27}
+        - {x: -18.5, y: -27}
+        - {x: 8.5, y: -27}
+        - {x: 18.5, y: 1}
+        - {x: 18.5, y: 24}
+        - {x: 12.5, y: 27}
+    - name: senzo6big9_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 27}
+        - {x: -22.5, y: 9}
+        - {x: -22.5, y: -27}
+        - {x: 22.5, y: -27}
+        - {x: 22.5, y: -5}
+        - {x: 9.5, y: 27}
+    - name: senzo6big9_81
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 26.5}
+        - {x: -16, y: 26.5}
+        - {x: -23, y: 8.5}
+        - {x: -23, y: -26.5}
+        - {x: 16, y: -26.5}
+        - {x: 22, y: -23.5}
+        - {x: 23, y: -22.5}
+        - {x: 23, y: 1.5}
+    - name: senzo6big9_82
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 26.5}
+        - {x: -13, y: 26.5}
+        - {x: -21, y: 13.5}
+        - {x: -21, y: -24.5}
+        - {x: -20, y: -26.5}
+        - {x: 15, y: -26.5}
+        - {x: 21, y: -17.5}
+        - {x: 21, y: 3.5}
+        - {x: 20, y: 6.5}
+    - name: senzo6big9_83
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 26.5}
+        - {x: -21, y: 18.5}
+        - {x: -21, y: -23.5}
+        - {x: -16, y: -26.5}
+        - {x: 21, y: -26.5}
+        - {x: 21, y: 20.5}
+        - {x: 17, y: 26.5}
+    - name: senzo6big9_84
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 26.5}
+        - {x: -20.5, y: 13.5}
+        - {x: -20.5, y: -26.5}
+        - {x: 17.5, y: -26.5}
+        - {x: 20.5, y: -23.5}
+        - {x: 20.5, y: 26.5}
+    - name: senzo6big9_85
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 13.5}
+        - {x: -18.5, y: -26.5}
+        - {x: 16.5, y: -26.5}
+        - {x: 18.5, y: -23.5}
+        - {x: 18.5, y: 26.5}
+        - {x: -16.5, y: 26.5}
+    - name: senzo6big9_86
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 26.5}
+        - {x: -18.5, y: 23.5}
+        - {x: -18.5, y: -21.5}
+        - {x: -13.5, y: -26.5}
+        - {x: 13.5, y: -26.5}
+        - {x: 18.5, y: -24.5}
+        - {x: 18.5, y: 24.5}
+        - {x: 14.5, y: 26.5}
+    - name: senzo6big9_87
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 26.5}
+        - {x: -18, y: -17.5}
+        - {x: -15, y: -26.5}
+        - {x: 12, y: -26.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 16.5}
+        - {x: 12, y: 26.5}
+    - name: senzo6big9_88
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 26.5}
+        - {x: -18, y: 22.5}
+        - {x: -18, y: -26.5}
+        - {x: 13, y: -26.5}
+        - {x: 18, y: -20.5}
+        - {x: 18, y: 22.5}
+        - {x: 14, y: 26.5}
+    - name: senzo6big9_89
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 5
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 25}
+        - {x: -11, y: 25}
+        - {x: -18, y: 10}
+        - {x: -18, y: -25}
+        - {x: 15, y: -25}
+        - {x: 18, y: -18}
+        - {x: 18, y: 20}
+        - {x: 13, y: 24}
+    - name: senzo6big9_90
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 5
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 25}
+        - {x: -12, y: 25}
+        - {x: -19, y: 10}
+        - {x: -19, y: -25}
+        - {x: 9, y: -25}
+        - {x: 14, y: -22}
+        - {x: 19, y: -15}
+        - {x: 19, y: 21}
+    - name: senzo6big9_91
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 5
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -18, y: 23}
+        - {x: -20, y: 1}
+        - {x: -20, y: -25}
+        - {x: 13, y: -25}
+        - {x: 20, y: -14}
+        - {x: 20, y: 10}
+        - {x: 9, y: 25}
+    - name: senzo6big9_92
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 20}
+        - {x: -19, y: 3}
+        - {x: -19, y: -20}
+        - {x: 19, y: -20}
+        - {x: 19, y: 7}
+        - {x: 14, y: 20}
+    - name: senzo6big9_93
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_94
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 26}
+        - {x: -10, y: 26}
+        - {x: -12, y: 23}
+        - {x: -18, y: 9}
+        - {x: -18, y: -26}
+        - {x: 18, y: -26}
+        - {x: 18, y: 16}
+        - {x: 16, y: 25}
+    - name: senzo6big9_95
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_96
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: senzo6big9_97
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 27}
+        - {x: -11, y: 27}
+        - {x: -16, y: 25}
+        - {x: -16, y: -27}
+        - {x: 13, y: -27}
+        - {x: 15, y: -26}
+        - {x: 16, y: -17}
+        - {x: 16, y: 22}
+    - name: senzo6big9_98
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 27}
+        - {x: -18, y: 19}
+        - {x: -18, y: -19}
+        - {x: -17, y: -27}
+        - {x: 15, y: -27}
+        - {x: 18, y: -19}
+        - {x: 18, y: 22}
+        - {x: 9, y: 27}
+    - name: senzo6big9_99
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
