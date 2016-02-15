@@ -360,10 +360,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 133914, guid: 4cdd0e24c314c9346b50702a4c7d8b68, type: 2}
-      propertyPath: m_Name
-      value: MediumGround
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4cdd0e24c314c9346b50702a4c7d8b68, type: 2}
   m_IsPrefabParent: 0
@@ -782,10 +778,6 @@ Prefab:
     - target: {fileID: 418326, guid: 22bf300926c23a24086a432b7d40213e, type: 2}
       propertyPath: m_RootOrder
       value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 158658, guid: 22bf300926c23a24086a432b7d40213e, type: 2}
-      propertyPath: m_Name
-      value: LargeGround
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 22bf300926c23a24086a432b7d40213e, type: 2}
