@@ -9,7 +9,7 @@ namespace Platformer.Character {
         [SerializeField] private float maxSpeed = 10f;      // The fastest the player can travel in the x axis.
         [SerializeField] private float jumpForce = 400f;    // Amount of force added when the player jumps.	
 
-        [Range(0, 1)] [SerializeField] private float crouchSpeed = .36f;
+        [Range(0, 1)][SerializeField] private float crouchSpeed = .36f;
                                                             // Amount of maxSpeed applied to crouching movement. 1 = 100%
 
         [SerializeField] private bool airControl = false;   // Whether or not a player can steer while jumping;
@@ -23,50 +23,28 @@ namespace Platformer.Character {
         [SerializeField] private Animator anim;             // Reference to the player's animator component.
         [SerializeField] private Rigidbody2D rigidbody;
 
-       [SerializeField]private float _knockbackTime;
-       [SerializeField]private float _knockbackPwd;
-        [SerializeField]
-        private bool  _knockFromRight;
-
-        void Update() {
-            if (_knockbackTime > 0) {
-                _knockbackTime -= Time.deltaTime;
-
-                rigidbody.velocity = _knockFromRight
-                    ? new Vector2(-_knockbackPwd, _knockbackPwd / 2)
-                    : new Vector2(_knockbackPwd, _knockbackPwd / 2);
-            }
-
-            anim.SetFloat("knockbackTime", _knockbackTime);
-        }
+        private bool  _isKnockback = false;
 
         private void FixedUpdate() {
             grounded = Physics2D.OverlapCircle(groundCheck.position, groundedRadius, whatIsGround);
+            
             anim.SetBool("Ground", grounded);
-
+            anim.SetBool("isKnockback", _isKnockback);
             anim.SetFloat("vSpeed", rigidbody.velocity.y);
         }
 
-        public void Knockback(float knockbackPwd, float knockbackTime, bool knockFromRight) {
-            _knockbackTime = knockbackTime;
-            _knockbackPwd = knockbackPwd;
-            _knockFromRight = knockFromRight;
+        public IEnumerator Knockback(float knockbackPwd, float knockbackTime, bool knockFromRight) {
+            _isKnockback = true;
+
+            rigidbody.velocity = knockFromRight
+                ? new Vector2(-knockbackPwd, knockbackPwd)
+                : new Vector2(knockbackPwd, knockbackPwd);
+
+            yield return new WaitForSeconds(knockbackTime);
+
+            rigidbody.velocity = Vector2.zero;
+            _isKnockback = false;
         }
-
-        //public IEnumerator Knockback(float knockbackPwd, float knockbackTime, bool knockFromRight) {
-        //    _knockbackTime = knockbackTime;
-
-        //    while (_knockbackTime > 0)
-        //    {
-        //        _knockbackTime -= Time.deltaTime;
-
-        //        rigidbody.velocity = knockFromRight
-        //            ? new Vector2(-knockbackPwd, knockbackPwd)
-        //            : new Vector2(knockbackPwd, knockbackPwd);
-        //    }
-
-        //    yield return 0;
-        //}
 
         public void Move(float move, bool crouch, bool jump) {
             // If crouching, check to see if the character can stand up
@@ -88,7 +66,7 @@ namespace Platformer.Character {
                 anim.SetFloat("Speed", Mathf.Abs(move));
 
                 // Move the character
-                if (_knockbackTime <= 0)
+                if (!_isKnockback)
                     rigidbody.velocity = new Vector2(move * maxSpeed, rigidbody.velocity.y);
 
                 // If the input is moving the player right and the player is facing left...

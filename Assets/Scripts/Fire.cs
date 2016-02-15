@@ -11,12 +11,9 @@ public class Fire : MonoBehaviour {
             g.GetComponent<Health>().Damage(1);
 
             bool tmp = other.transform.position.x < transform.position.x;
-            Debug.Log("Knockback("+_knockbackPwd+", "+_knockbackTime+","+ tmp + ")");
 
-            g.GetComponent<PlatformerCharacter>()
-                .Knockback(_knockbackPwd, _knockbackTime, other.transform.position.x < transform.position.x);
-            //StartCoroutine(g.GetComponent<PlatformerCharacter>()
-            //    .Knockback(_knockbackPwd, _knockbackTime, other.transform.position.x < transform.position.x));
+            StartCoroutine(g.GetComponent<PlatformerCharacter>()
+                .Knockback(_knockbackPwd, _knockbackTime, other.transform.position.x < transform.position.x));
         }
     }
 }
