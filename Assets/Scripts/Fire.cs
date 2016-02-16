@@ -10,8 +10,6 @@ public class Fire : MonoBehaviour {
             var g = other.gameObject;
             g.GetComponent<Health>().Damage(1);
 
-            bool tmp = other.transform.position.x < transform.position.x;
-
             StartCoroutine(g.GetComponent<PlatformerCharacter>()
                 .Knockback(_knockbackPwd, _knockbackTime, other.transform.position.x < transform.position.x));
         }

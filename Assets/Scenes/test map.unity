@@ -1076,10 +1076,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 11475352, guid: df279b7e43a42eb4ca8a02e630018cf0, type: 2}
-      propertyPath: _knockbackPwd
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: df279b7e43a42eb4ca8a02e630018cf0, type: 2}
   m_IsPrefabParent: 0
