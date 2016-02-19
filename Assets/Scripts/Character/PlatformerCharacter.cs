@@ -20,6 +20,7 @@ namespace Platformer.Character {
         private bool _grounded = false;                      // Whether or not the player is grounded.
         [SerializeField] private Transform _ceilingCheck;    // A position marking where to check for ceilings
         private float _ceilingRadius = .01f;                 // Radius of the overlap circle to determine if the player can stand up
+
         [SerializeField] private Animator _anim;             // Reference to the player's animator component.
         [SerializeField] private Rigidbody2D _rigidbody;
 
