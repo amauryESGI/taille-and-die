@@ -26,9 +26,21 @@ namespace Platformer.Character {
 
         private bool  _isKnockback = false;
 
+        public bool Grounded
+        {
+            get
+            {
+                return _grounded;
+            }
+
+            set
+            {
+                _grounded = value;
+            }
+        }
+
         private void FixedUpdate() {
             _grounded = Physics2D.OverlapCircle(_groundCheck.position, _groundedRadius, _whatIsGround);
-            
             _anim.SetBool("Ground", _grounded);
             _anim.SetBool("isKnockback", _isKnockback);
             _anim.SetFloat("vSpeed", _rigidbody.velocity.y);
