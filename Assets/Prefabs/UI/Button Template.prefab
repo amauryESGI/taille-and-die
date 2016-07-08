@@ -31,6 +31,7 @@ GameObject:
   - 114: {fileID: 11462276}
   - 114: {fileID: 11472516}
   - 95: {fileID: 9596932}
+  - 114: {fileID: 11480778}
   m_Layer: 5
   m_Name: Button Template
   m_TagString: Untagged
@@ -205,6 +206,19 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: 0
+--- !u!114 &11480778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abfc1b2e65bb3674f89b7d172e9ec2c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _t: {fileID: 11471172}
+  _key: default
 --- !u!222 &22240076
 CanvasRenderer:
   m_ObjectHideFlags: 1
