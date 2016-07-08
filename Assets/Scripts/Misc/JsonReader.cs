@@ -1,4 +1,5 @@
-﻿using SimpleJSON;
+﻿using System.ComponentModel;
+using SimpleJSON;
 using UnityEngine;
 
 public class JsonReader : MonoBehaviour {
@@ -7,6 +8,11 @@ public class JsonReader : MonoBehaviour {
 
     void Awake() {
         Global.JsonReader = this;
+        Global.LanguageController.PropertyChanged += languageController_PropertyChanged;
+    }
+
+    private void languageController_PropertyChanged(object sender, PropertyChangedEventArgs e) {
+        GetJsonFile();
     }
 
     public string ReadValue(string key) {

@@ -1,13 +1,17 @@
-﻿using UnityEngine;
+﻿using System.ComponentModel;
+using JetBrains.Annotations;
+using UnityEngine;
 
-public class LanguageController : MonoBehaviour {
+public class LanguageController : MonoBehaviour, INotifyPropertyChanged {
+    public event PropertyChangedEventHandler PropertyChanged;
     private static string _currentLanguage;
 
-    public static string CurrentLanguage {
+    public string CurrentLanguage {
         get { return _currentLanguage; }
         set {
             _currentLanguage = value;
             PlayerPrefs.SetString("CurrentLanguage", _currentLanguage);
+            RaisePropertyChanged("CurrentLanguage");
         }
     }
 
@@ -20,7 +24,7 @@ public class LanguageController : MonoBehaviour {
         Global.LanguageController = this;
     }
 
-    public static void CheckLanguage() {
+    public void CheckLanguage() {
         if (PlayerPrefs.HasKey("CurrentLanguage")) {
             CurrentLanguage = PlayerPrefs.GetString("CurrentLanguage");
         } else {
@@ -37,14 +41,21 @@ public class LanguageController : MonoBehaviour {
                 return "en";
         }
     }
-
     public void ChangeLanguages() {
         if (CurrentLanguage == "en")
             CurrentLanguage = SelectLanguages(Application.systemLanguage);
         else
             CurrentLanguage = "en";
+    }
+    
+    public void RaisePropertyChanged(string propertyName) {
+        if (PropertyChanged != null)
+            PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+    }
 
-        
-        Debug.Log(CurrentLanguage);
+    [NotifyPropertyChangedInvocator]
+    protected virtual void OnPropertyChanged(string propertyName) {
+        PropertyChangedEventHandler handler = PropertyChanged;
+        if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
     }
 }
