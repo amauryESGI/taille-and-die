@@ -19,7 +19,7 @@ public class JsonReader : MonoBehaviour {
     }
 
     private void GetJsonFile() {
-        string path = string.Format("strings_{0}", Global.CurrentLanguage);
+        string path = string.Format("strings_{0}", Global.LanguageController.GetCurrentLanguage());
         _jsonFile = Resources.Load(path, typeof (object));
         _json = JSON.Parse(_jsonFile.ToString());
     }

@@ -1,7 +1,11 @@
 {
-  "menu_main_button_play" : "Play",
-  "menu_main_button_editor" : "Editor Level",
-  "menu_main_button_option" : "Options",
-  "menu_main_button_credits" : "Credits",
-  "menu_main_button_exit" : "Exit"
+  "menu_main": "Main Menu",
+  "menu_main_button_play": "Play",
+  "menu_main_button_editor": "Editor Level",
+  "menu_main_button_option": "Options",
+  "menu_main_button_credits": "Credits",
+  "menu_main_button_exit": "Exit",
+  "menu_option": "Options",
+  "menu_option_button_languages": "Change Languages",
+  "menu_option_button_back": "Back"
 }

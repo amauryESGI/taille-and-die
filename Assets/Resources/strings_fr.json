@@ -1,7 +1,11 @@
 {
-  "menu_main_button_play" : "Jouer",
-  "menu_main_button_editor" : "Editeur de niveau",
-  "menu_main_button_option" : "Options",
-  "menu_main_button_credits" : "Credits",
-  "menu_main_button_exit" : "Quitter"
+  "menu_main": "Menu Principal",
+  "menu_main_button_play": "Jouer",
+  "menu_main_button_editor": "Editeur de niveau",
+  "menu_main_button_option": "Options",
+  "menu_main_button_credits": "Credits",
+  "menu_main_button_exit": "Quitter",
+  "menu_option": "Options",
+  "menu_option_button_languages": "Modifier la langue",
+  "menu_option_button_back": "Retour"
 }
