@@ -8,6 +8,9 @@ public class JsonReader : MonoBehaviour {
 
     void Awake() {
         Global.JsonReader = this;
+    }
+
+    void Start() {
         Global.LanguageController.PropertyChanged += languageController_PropertyChanged;
     }
 
@@ -19,14 +22,15 @@ public class JsonReader : MonoBehaviour {
         if (_json == null)
             GetJsonFile();
 
-        if (_json == null || _json[key] == null) return "UNKNOW";
+        if (_json == null || _json[key] == null)
+            return "UNKNOW";
 
         return _json[key].Value;
     }
 
     private void GetJsonFile() {
         string path = string.Format("strings_{0}", Global.LanguageController.GetCurrentLanguage());
-        _jsonFile = Resources.Load(path, typeof (object));
+        _jsonFile = Resources.Load(path, typeof(object));
         _json = JSON.Parse(_jsonFile.ToString());
     }
 }

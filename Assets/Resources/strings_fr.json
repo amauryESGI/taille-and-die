@@ -7,5 +7,8 @@
   "menu_main_button_exit": "Quitter",
   "menu_option": "Options",
   "menu_option_button_languages": "Modifier la langue",
-  "menu_option_button_back": "Retour"
+  "menu_option_button_back": "Retour",
+  "menu_credits": "Credits",
+  "menu_credits_text_content": "<size=18><b>Developpeur :</b></size>\nCOLMANT Amaury\nDU BE Louisette\nGILLE Aurelien\n\n<size=18><b>Ingenieur du son :</b></size>\nDU BE Louisette\n\n<size=18><b>Graphiste :</b></size>\nOCHON Paul\n\n<size=18><b>Tuteur de Projet :</b></size>\nLIORET Alain\n\n<size=18><b>Remerciement :</b></size>\nVIDAL Nicola",
+  "menu_credits_button_back": "Retour"
 }
