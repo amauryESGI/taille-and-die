@@ -1,4 +1,5 @@
 {
+  "button_back": "Back",
   "menu_main": "Main Menu",
   "menu_main_button_play": "Play",
   "menu_main_button_editor": "Editor Level",
@@ -7,8 +8,8 @@
   "menu_main_button_exit": "Exit",
   "menu_option": "Options",
   "menu_option_button_languages": "Change Languages",
-  "menu_option_button_back": "Back",
   "menu_credits": "Credits",
   "menu_credits_text_content": "<size=18><b>Developer :</b></size>\nCOLMANT Amaury\nDU BE Louisette\nGILLE Aurelien\n\n<size=18><b>Sound designer :</b></size>\nDU BE Louisette\n\n<size=18><b>Graphic designer :</b></size>\nOCHON Paul\n\n<size=18><b>Tutor Project :</b></size>\nLIORET Alain\n\n<size=18><b>Acknowledgement :</b></size>\nVIDAL Nicola",
-  "menu_credits_button_back": "Back"
+  "menu_editor_button_new_lvl": "Create Level",
+  "menu_editor_button_load_lvl": "Load level"
 }
