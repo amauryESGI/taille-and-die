@@ -6,12 +6,20 @@ public class HealthLine : MonoBehaviour {
     [SerializeField] private Health _playerHealth;
     [SerializeField] private Transform _contentPanel ;
 
+    public Health PlayerHealth {
+        get { return _playerHealth; }
+        set {
+            _playerHealth = value;
+            Init();
+        }
+    }
+
     [SerializeField]
     private List<Hearth> _healthLine = new List<Hearth>();
 
     void Start() {
-        for (int i = 0; i < _playerHealth.getMaxHealth(); i++)
-            _popHearth();
+        if (_playerHealth != null)
+            Init();
     }
 
     void Update() {
@@ -23,6 +31,11 @@ public class HealthLine : MonoBehaviour {
 
         for (var i = _playerHealth.getCurrentHealth(); i < _playerHealth.getMaxHealth(); i++)
             _healthLine[i].IsUp = false;
+    }
+
+    private void Init() {
+        for (int i = 0; i < _playerHealth.getMaxHealth(); i++)
+            _popHearth();
     }
 
     private void _popHearth() {

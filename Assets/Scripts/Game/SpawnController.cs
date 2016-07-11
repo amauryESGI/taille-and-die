@@ -10,6 +10,8 @@ public class SpawnController : MonoBehaviour {
     private GameObject _prefabPlayerCharacter;
     [SerializeField]
     private FollowSmoothlyTarget _Camera;
+    [SerializeField]
+    private HealthLine _hudHealthLine;
 
     // Use this for initialization
     void Start() {
@@ -18,6 +20,7 @@ public class SpawnController : MonoBehaviour {
                 GameObject go = Instantiate(_prefabPlayerCharacter);
                 go.transform.position = new Vector3(child.transform.position.x, child.transform.position.y + 2);
                 _Camera.Player = go;
+                _hudHealthLine.PlayerHealth = go.GetComponent<Health>();
             }
         }
     }
