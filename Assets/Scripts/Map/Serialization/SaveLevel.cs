@@ -8,8 +8,8 @@ namespace Serialization {
         [SerializeField] private GameObject _gameObjectSerialized;
 
         public void Save(string fileName) {
-            string filePath = SaveConfig.dataPath + fileName + ".xml";
-            
+            string filePath = CreatePathXml(fileName);
+
             Debug.Log("Save!");
             
             var prefabList = new List<PrefabDetails>(_gameObjectSerialized.transform.childCount);
@@ -31,7 +31,12 @@ namespace Serialization {
         }
 
         public void Load(string fileName) {
-            string filePath = SaveConfig.dataPath + fileName + ".xml";
+            string filePath = CreatePathXml(fileName);
+
+            if (!File.Exists(filePath)) {
+                Debug.Log(filePath);
+                throw new System.NotImplementedException(); // TODO ADD 
+            }
 
             Debug.Log("Load!");
             List<PrefabDetails> XmlData;
@@ -47,6 +52,10 @@ namespace Serialization {
                 obj.transform.position = objDetails.Pos;
                 obj.transform.parent = _gameObjectSerialized.transform;
             }
+        }
+
+        private static string CreatePathXml(string fileName) {
+            return SaveConfig.MapPath + "/" + fileName + ".xml";
         }
     }
 }

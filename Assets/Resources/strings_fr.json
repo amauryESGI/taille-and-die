@@ -1,5 +1,6 @@
 {
   "button_back": "Retour",
+  "button_refresh": "Actualiser",
   "menu_main": "Menu Principal",
   "menu_main_button_play": "Jouer",
   "menu_main_button_editor": "Editeur de niveau",
@@ -10,6 +11,9 @@
   "menu_option_button_languages": "Modifier la langue",
   "menu_credits": "Credits",
   "menu_credits_text_content": "<size=18><b>Developpeur :</b></size>\nCOLMANT Amaury\nDU BE Louisette\nGILLE Aurelien\n\n<size=18><b>Ingenieur du son :</b></size>\nDU BE Louisette\n\n<size=18><b>Graphiste :</b></size>\nTOULOUSE Anne-Charlotte\nRISLER Thibaut\n\n<size=18><b>Tuteur de Projet :</b></size>\nLIORET Alain\n\n<size=18><b>Remerciement :</b></size>\nVIDAL Nicola",
+  "menu_editor": "Editeur de niveau",
   "menu_editor_button_new_lvl": "Créer un niveau",
-  "menu_editor_button_load_lvl": "Charger un niveau"
+  "menu_editor_button_load_lvl": "Charger un niveau",
+  "menu_editor_load_header_list_name": "Nom",
+  "menu_editor_load_header_list_date": "Derniere modification"
 }
