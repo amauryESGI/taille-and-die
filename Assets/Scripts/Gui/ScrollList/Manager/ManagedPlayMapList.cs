@@ -10,11 +10,12 @@ public class ManagedPlayMapList : ManagedScrollList<ItemInformationMap> {
         // For each item in list...
         for (var i = 0; i < items.Count; ++i) {
             // We Instantiate a new gameObject and get component for ...
-            var button = Instantiate(_sampleButton).GetComponent<SampleButtonMap>();
+            var button = Instantiate(_sampleButton).GetComponent<SampleButtonMapPlay>();
 
             // ... initialyze data.
             button.MapName.text = items[i].Name;
-            button.LastModificationDateTime.text = items[i].DateTime;
+            button.NbTry = PlayerPrefs.HasKey(items[i].Name + "NbTry") ? PlayerPrefs.GetInt(items[i].Name + "NbTry") : 0;
+            button.NbWin = PlayerPrefs.HasKey(items[i].Name + "NbWin") ? PlayerPrefs.GetInt(items[i].Name + "NbWin") : 0;
 
             // Here we need copy for does not lost the item at the end of for.
             var item = items[i];

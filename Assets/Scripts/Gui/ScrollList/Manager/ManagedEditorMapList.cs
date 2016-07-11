@@ -10,7 +10,7 @@ public class ManagedEditorMapList : ManagedScrollList<ItemInformationMap> {
         // For each item in list...
         for (var i = 0; i < items.Count; ++i) {
             // We Instantiate a new gameObject and get component for ...
-            var button = Instantiate(_sampleButton).GetComponent<SampleButtonMap>();
+            var button = Instantiate(_sampleButton).GetComponent<SampleButtonMapEditor>();
 
             // ... initialyze data.
             button.MapName.text = items[i].Name;

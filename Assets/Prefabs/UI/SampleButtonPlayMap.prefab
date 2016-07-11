@@ -11,7 +11,7 @@ GameObject:
   - 222: {fileID: 22247204}
   - 114: {fileID: 11438760}
   m_Layer: 5
-  m_Name: Date
+  m_Name: TryVsWin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +31,7 @@ GameObject:
   - 114: {fileID: 11476616}
   - 114: {fileID: 11429856}
   - 95: {fileID: 9512824}
-  - 114: {fileID: 11446980}
+  - 114: {fileID: 11498802}
   m_Layer: 5
   m_Name: SampleButtonPlayMap
   m_TagString: Untagged
@@ -157,20 +157,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: UNKNOW DATE
---- !u!114 &11446980
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 163150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d2da30f7b2294b4b92149d2c5b585b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Button: {fileID: 11474634}
-  MapName: {fileID: 11430334}
-  LastModificationDateTime: {fileID: 11438760}
 --- !u!114 &11474634
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -270,6 +256,20 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &11498802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59701171bfdc7f46bb4f1e46d394915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 11474634}
+  MapName: {fileID: 11430334}
+  TryVsWin: {fileID: 11438760}
 --- !u!222 &22211378
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -330,7 +330,7 @@ RectTransform:
   m_GameObject: {fileID: 163150}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalScale: {x: 0.90000004, y: 0.90000004, z: 1}
   m_Children:
   - {fileID: 22413332}
   - {fileID: 22453458}

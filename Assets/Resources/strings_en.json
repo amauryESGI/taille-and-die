@@ -12,6 +12,8 @@
   "menu_play": "Play",
   "menu_play_button_load_official_lvl": "Load official level",
   "menu_play_button_load_comunity_lvl": "Load community level",
+  "menu_play_load_header_list_name": "Name",
+  "menu_play_load_header_list_trywin": "Try / Win",
   "menu_option": "Options",
   "menu_option_button_languages": "Change Languages",
   "menu_credits": "Credits",
