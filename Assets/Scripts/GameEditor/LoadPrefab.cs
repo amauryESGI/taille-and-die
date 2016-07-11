@@ -10,6 +10,7 @@ public class LoadPrefab : MonoBehaviour {
 	GameObject ListObj;
     GameObject clone;
 
+	static List<Vector2> vecList = new List<Vector2> ();
 	static typeObject actualObj;
 	[SerializeField]
 	typeObject numObject = 0;
@@ -38,20 +39,30 @@ public class LoadPrefab : MonoBehaviour {
 				clone.transform.position = Camera.main.ScreenToWorldPoint (Input.mousePosition);
 			}
 		}
-			
     }
 
     void ClampObjectToGrid() {
         int x = (int)clone.transform.position.x;
         int y = (int)clone.transform.position.y;
-		clone.transform.position = new Vector3(Mathf.Floor(clone.transform.position.x)+0.5f, Mathf.Floor(clone.transform.position.y)+0.5f, 0);
-		clone.transform.parent = ListObj.transform;
-		actual_number++;
+		Vector2 vec2;
 
-		if (actual_number == limit) {
-			this.transform.parent.gameObject.SetActive (false);
-		}
+		vec2 = new Vector2(Mathf.Floor(clone.transform.position.x)+0.5f, Mathf.Floor(clone.transform.position.y)+0.5f);
+		
+		if(!vecList.Contains(vec2))
+		{
+			clone.transform.position = new Vector3(vec2.x,vec2.y, 0);
+			clone.transform.parent = ListObj.transform;
+			actual_number++;
+
+			if (actual_number == limit) {
+				this.transform.parent.gameObject.SetActive (false);
+			}
+			vecList.Add (clone.transform.position);
+			if(clone.GetComponent<Rigidbody2D> () != null)
+				clone.GetComponent<Rigidbody2D> ().isKinematic = true;
 			
+			Onclick ();
+		}
 		//gol.Add(clone);
     }
 
@@ -75,7 +86,7 @@ public class LoadPrefab : MonoBehaviour {
 						oldMousePos = mousePos;
 						isRotating = true;
 						ClampObjectToGrid ();
-						Onclick ();
+
 					}
 				}
 				if (isRotating) {
@@ -86,18 +97,14 @@ public class LoadPrefab : MonoBehaviour {
 				{
 					Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 					RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
-					Debug.Log ("test");
 					if(hit.transform != null)
 					{
-						Debug.Log ("test2");
 						if(hit.transform.parent != null)
 						{
-							
 							if(hit.transform.parent.transform.parent != null && hit.transform.parent.parent.name ==  "objectList")
 							{
 								Destroy(hit.transform.gameObject);
 							}
-
 						}
 					}
 

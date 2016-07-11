@@ -333,7 +333,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22469564, guid: 288835eedac82794988cc36494f24be0, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -350
+      value: -450
       objectReference: {fileID: 0}
     - target: {fileID: 22469564, guid: 288835eedac82794988cc36494f24be0, type: 2}
       propertyPath: m_SizeDelta.x
@@ -406,7 +406,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11436964, guid: 288835eedac82794988cc36494f24be0, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11445812, guid: 288835eedac82794988cc36494f24be0, type: 2}
       propertyPath: limit
@@ -1079,7 +1079,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22469564, guid: 288835eedac82794988cc36494f24be0, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -450
+      value: -350
       objectReference: {fileID: 0}
     - target: {fileID: 22469564, guid: 288835eedac82794988cc36494f24be0, type: 2}
       propertyPath: m_SizeDelta.x
@@ -1152,9 +1152,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11403050, guid: 288835eedac82794988cc36494f24be0, type: 2}
       propertyPath: m_Text
-      value: 'Spawn
-
-'
+      value: Ennemy1
       objectReference: {fileID: 0}
     - target: {fileID: 11403050, guid: 288835eedac82794988cc36494f24be0, type: 2}
       propertyPath: m_FontData.m_Alignment
@@ -1171,7 +1169,7 @@ Prefab:
     - target: {fileID: 11445812, guid: 288835eedac82794988cc36494f24be0, type: 2}
       propertyPath: prefablToClone
       value: 
-      objectReference: {fileID: 112768, guid: 309861c5b3788d94689e615e2aaec602, type: 2}
+      objectReference: {fileID: 168686, guid: db72a4bf6b4d11d49b3b010127badb4c, type: 2}
     - target: {fileID: 11410400, guid: 288835eedac82794988cc36494f24be0, type: 2}
       propertyPath: m_Sprite
       value: 
@@ -1183,7 +1181,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11445812, guid: 288835eedac82794988cc36494f24be0, type: 2}
       propertyPath: limit
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 11484394, guid: 288835eedac82794988cc36494f24be0, type: 2}
       propertyPath: m_Colors.m_DisabledColor.r
@@ -1204,6 +1202,10 @@ Prefab:
     - target: {fileID: 11484394, guid: 288835eedac82794988cc36494f24be0, type: 2}
       propertyPath: m_Interactable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11445812, guid: 288835eedac82794988cc36494f24be0, type: 2}
+      propertyPath: numObject
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 288835eedac82794988cc36494f24be0, type: 2}
@@ -1444,7 +1446,7 @@ MeshCollider:
   m_GameObject: {fileID: 1605972105}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
