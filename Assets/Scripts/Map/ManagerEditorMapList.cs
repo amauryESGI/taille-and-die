@@ -29,7 +29,7 @@ public class ManagerEditorMapList : MonoBehaviour {
         for (var i = 0; i < _mapList.Length; i++) {
             items.Add(new ItemInformationMap {
                 Name = Path.GetFileNameWithoutExtension(_mapList[i]),
-                DateTime = File.GetLastAccessTime(_mapList[i]).ToString("MM/dd/yyyy HH:mm:ss"),
+                //DateTime = File.GetLastAccessTime(_mapList[i]).ToString("MM/dd/yyyy HH:mm:ss"),
                 DoWork = LoadMap
             });
         }
