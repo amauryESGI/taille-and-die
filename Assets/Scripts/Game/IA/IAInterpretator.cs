@@ -8,6 +8,8 @@ public class IAInterpretator : MonoBehaviour
     GameObject Player;
     [SerializeField]
     TypeIA typeIA;
+    [SerializeField]
+    bool IsAttacking;
     private IAStats _actualIA;
     [SerializeField]
     private Animator _anim;
@@ -44,15 +46,17 @@ public class IAInterpretator : MonoBehaviour
     {
         if (triggered == _playerColl)
         {
-            if ((Player.transform.localScale.x > 0 && _mySkin.flipX) || (Player.transform.localScale.x < 0 && !_mySkin.flipX))
+            if ((Player.transform.localScale.x > 0 && !_mySkin.flipX) || (Player.transform.localScale.x < 0 && _mySkin.flipX))
                 _isIn = true;
             MakeAction();
         }
     }
     void OnTriggerExit2D(Collider2D triggered)
     {
+        Debug.Log("exit");
         if (triggered == _playerColl && _isIn)
         {
+            _anim.SetBool("isPunchRight", false);
             _isIn = false;
             AddStat(_actualInterpretor);
         }
@@ -84,6 +88,7 @@ public class IAInterpretator : MonoBehaviour
             {
                 case estate.fight:
                     {
+                        Debug.Log("ATTACK ");
                         _anim.SetBool("isPunchRight", true);
                         break;
                     }
