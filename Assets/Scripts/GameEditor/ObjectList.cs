@@ -12,5 +12,6 @@ public enum typeObject
 	Char = 3,
 	Ennemy01 = 4,
 	Ennemy02 = 5,
-	destroy = 6
+	destroy = 6,
+    end = 7
 }
