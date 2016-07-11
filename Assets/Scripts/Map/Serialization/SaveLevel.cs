@@ -52,7 +52,6 @@ namespace Serialization {
             }
 
             foreach (PrefabDetails objDetails in XmlData) {
-                Debug.Log(string.Format("[{0}] {1} {2} : {3}", objDetails.Id, objDetails.OriginPrefab, objDetails.Pos, Resources.Load("Prefabs/" + objDetails.OriginPrefab)));
                 var obj = Instantiate(Resources.Load("Prefabs/" + objDetails.OriginPrefab)) as GameObject;
                 obj.transform.position = objDetails.Pos;
                 obj.transform.parent = _gameObjectSerialized.transform;

@@ -13,6 +13,11 @@ public class FollowSmoothlyTarget : MonoBehaviour {
     [SerializeField] private Vector2 _minPos;
     [SerializeField] private Vector2 _maxPos;
 
+    public GameObject Player {
+        get { return _player; }
+        set { _player = value; }
+    }
+
     void FixedUpdate() {
         float posX = Mathf.SmoothDamp(transform.position.x, _player.transform.position.x, ref _velocity.x, _smothTimeX);
         float posY = Mathf.SmoothDamp(transform.position.y, _player.transform.position.y, ref _velocity.x, _smothTimeY);
