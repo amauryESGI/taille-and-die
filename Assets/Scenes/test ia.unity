@@ -85,24 +85,6 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &171840092 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 126550, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
-  m_PrefabInternal: {fileID: 496439392}
---- !u!61 &171840094
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 171840092}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: -0.5, y: 0.2}
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
 --- !u!4 &215660671 stripped
 Transform:
   m_PrefabParentObject: {fileID: 408208, guid: 56c9882576495bf429324c7cf9f89890, type: 2}
@@ -439,30 +421,46 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 412492, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11460816, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
       propertyPath: Player
       value: 
       objectReference: {fileID: 2063951652}
-    - target: {fileID: 5855734, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
+    - target: {fileID: 21248936, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
+      propertyPath: m_FlipX
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6103074, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
+    - target: {fileID: 407260, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 488392, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111938, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5855734, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
-      propertyPath: m_Radius
-      value: 0.75
+    - target: {fileID: 6111938, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
+      propertyPath: m_Offset.x
+      value: -1.6637654
       objectReference: {fileID: 0}
-    - target: {fileID: 11460816, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
-      propertyPath: typeIA
-      value: 1
+    - target: {fileID: 6111938, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
+      propertyPath: m_Size.x
+      value: 3.78156
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111938, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
+      propertyPath: m_Offset.y
+      value: -0.3639751
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111938, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
+      propertyPath: m_Size.y
+      value: 4.002789
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 5855734, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
+    - {fileID: 11404540, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &575973797 stripped
@@ -1024,6 +1022,10 @@ Prefab:
     - target: {fileID: 6103074, guid: df279b7e43a42eb4ca8a02e630018cf0, type: 2}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11475352, guid: df279b7e43a42eb4ca8a02e630018cf0, type: 2}
+      propertyPath: _jumpForce
+      value: 500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: df279b7e43a42eb4ca8a02e630018cf0, type: 2}
