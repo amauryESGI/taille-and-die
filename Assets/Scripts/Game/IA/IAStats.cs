@@ -10,6 +10,10 @@ public enum estate
     walk = 4,
     resist = 5
 }
+public enum TypeIA {
+    ia1,
+    ia2
+}
 
 public class IAStats
 {
@@ -31,7 +35,7 @@ public class IAStats
         second = baseState;
     }
 
-    private void AddOneIncToEstate(estate whereToAdd)
+    public void AddOneIncToEstate(estate whereToAdd)
     {
         counter[estate.fight]--;
         counter[estate.jump]--;
@@ -57,17 +61,7 @@ public class IAStats
     }
 
 
-     public estate? CheckActionToDo(Rigidbody2D Player, IAInterpretator PNJ, Animator playerAnimator) {
-        estate? toChange = null;
-        if (Mathf.Abs(Player.velocity.x) > 3.5)
-            toChange = estate.fight;
-        if(Mathf.Abs(Player.velocity.y) > 0)
-            toChange = estate.jump;
-        if (playerAnimator.GetBool("isPunchLeft") || playerAnimator.GetBool("isPunchRight") || playerAnimator.GetBool("isKickLeft") || playerAnimator.GetBool("isKickRight"))
-            toChange = estate.resist;
-        Debug.Log(toChange);
-        if (toChange.HasValue)
-            AddOneIncToEstate(toChange.Value);
+     public estate CheckActionToDo() {
         return actual;
     }
 
