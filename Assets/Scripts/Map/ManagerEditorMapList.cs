@@ -4,10 +4,12 @@ using System.IO;
 using Assets.Scripts.GUI.ScrollList.Item;
 using UnityEngine.SceneManagement;
 
-public class ManagerMapList : MonoBehaviour {
+public class ManagerEditorMapList : MonoBehaviour {
     //
-    [SerializeField] private string NameSceneLoad;
-    [SerializeField] private ManagedEditorMapList _scrollListManager;
+    [SerializeField]
+    private string NameSceneLoad;
+    [SerializeField]
+    private ManagedEditorMapList _scrollListManager;
     private string[] _mapList;
 
     void Start() {

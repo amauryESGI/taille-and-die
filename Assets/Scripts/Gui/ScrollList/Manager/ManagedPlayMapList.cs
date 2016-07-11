@@ -2,7 +2,7 @@
 using Assets.Scripts.GUI.ScrollList.Item;
 using UnityEngine;
 
-public class ManagedEditorMapList : ManagedScrollList<ItemInformationMap> {
+public class ManagedPlayMapList : ManagedScrollList<ItemInformationMap> {
     [SerializeField]
     private GameObject _sampleButton;
 
