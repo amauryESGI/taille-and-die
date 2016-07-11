@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections.Generic;
 using System.IO;
 using System.Xml.Serialization;
+using UnityEngine.UI;
 
 namespace Serialization {
     public class SaveLevel : MonoBehaviour {
@@ -15,9 +17,8 @@ namespace Serialization {
             var prefabList = new List<PrefabDetails>(_gameObjectSerialized.transform.childCount);
             var id = 0;
             foreach (Transform child in _gameObjectSerialized.transform) {
-                Debug.Log(string.Format("[{0}] {1} : {2}", id, child.name, child.position));
                 prefabList.Add(new PrefabDetails {
-                    OriginPrefab = child.name.Split(' ')[0],
+                    OriginPrefab = child.name.Replace("(Clone)", string.Empty),
                     Id = id,
                     Pos = child.position
                 });
@@ -28,6 +29,10 @@ namespace Serialization {
             var serializer = new XmlSerializer(typeof(List<PrefabDetails>));
             using (TextWriter sw = new StreamWriter(filePath))
                 serializer.Serialize(sw, prefabList);
+        }
+
+        public void Save(Text fileName) {
+            Save(fileName.text);
         }
 
         public void Load(string fileName) {

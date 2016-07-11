@@ -4194,7 +4194,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11480778, guid: 4fe67b9eaba578a43b3c1f50163ac68b, type: 2}
       propertyPath: _key
-      value: menu_main_button_option
+      value: button_option
       objectReference: {fileID: 0}
     - target: {fileID: 11446500, guid: 4fe67b9eaba578a43b3c1f50163ac68b, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -5720,7 +5720,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11480778, guid: 4fe67b9eaba578a43b3c1f50163ac68b, type: 2}
       propertyPath: _key
-      value: menu_main_button_exit
+      value: button_exit
       objectReference: {fileID: 0}
     - target: {fileID: 11446500, guid: 4fe67b9eaba578a43b3c1f50163ac68b, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

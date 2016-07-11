@@ -1,12 +1,14 @@
 {
   "button_back": "Back",
   "button_refresh": "Refresh",
+  "button_option": "Options",
+  "button_exit": "Exit",
+  "button_save": "Save",
+  "button_ok": "Ok",
   "menu_main": "Main Menu",
   "menu_main_button_play": "Play",
   "menu_main_button_editor": "Level Editor",
-  "menu_main_button_option": "Options",
   "menu_main_button_credits": "Credits",
-  "menu_main_button_exit": "Exit",
   "menu_play": "Play",
   "menu_play_button_load_official_lvl": "Load official level",
   "menu_play_button_load_comunity_lvl": "Load community level",
@@ -18,5 +20,9 @@
   "menu_editor_button_new_lvl": "Create Level",
   "menu_editor_button_load_lvl": "Load level",
   "menu_editor_load_header_list_name": "Name",
-  "menu_editor_load_header_list_date": "Last time edited"
+  "menu_editor_load_header_list_date": "Last time edited",
+
+  "confirm_exit": "If you exit without saving, you lose all your progress. Do you really want to quit?",
+  "ask_name_to_saving": "How do you name your level?",
+  "placeholder_name_to_saving": "Enter name ..."
 }
