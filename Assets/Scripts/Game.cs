@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Assets.Scripts.GUI.Misc {
@@ -13,7 +14,7 @@ namespace Assets.Scripts.GUI.Misc {
         }
 
         public void OnJoinGame(string loadLevel) {
-            Application.LoadLevel(loadLevel);
+            SceneManager.LoadScene(loadLevel);
         }
 
         public void OnExitGame() {
