@@ -103,7 +103,8 @@ public class LoadPrefab : MonoBehaviour {
 						{
 							if(hit.transform.parent.transform.parent != null && hit.transform.parent.parent.name ==  "objectList")
 							{
-								Destroy(hit.transform.gameObject);
+                                vecList.Remove(hit.transform.position);
+								Destroy(hit.transform.parent.transform.gameObject);
 							}
 						}
 					}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPrefabDetails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PrefabDetails Name="Ground" Id="0" PosX="-5.5" PosY="1.5" PosZ="0" />
+  <PrefabDetails Name="Ground" Id="1" PosX="3.5" PosY="1.5" PosZ="0" />
+</ArrayOfPrefabDetails>
