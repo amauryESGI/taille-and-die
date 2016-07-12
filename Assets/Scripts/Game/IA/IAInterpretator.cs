@@ -5,7 +5,7 @@ public class IAInterpretator : MonoBehaviour
     [SerializeField]
     GameObject Myself;
     [SerializeField]
-    GameObject Player;
+    public GameObject Player;
     [SerializeField]
     TypeIA typeIA;
     [SerializeField]

@@ -7,6 +7,8 @@ public class SpawnController : MonoBehaviour {
     [SerializeField]
     private GameObject _prefabSpawner;
     [SerializeField]
+    private GameObject _prefabEnemies;
+    [SerializeField]
     private GameObject _prefabPlayerCharacter;
     [SerializeField]
     private FollowSmoothlyTarget _Camera;
@@ -15,12 +17,20 @@ public class SpawnController : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
+        GameObject player = null;
         foreach (Transform child in _listObject.transform) {
             if (string.Compare(child.name.Replace("(Clone)", ""), _prefabSpawner.name, StringComparison.Ordinal) == 0) {
-                GameObject go = Instantiate(_prefabPlayerCharacter);
-                go.transform.position = new Vector3(child.transform.position.x, child.transform.position.y + 2);
-                _Camera.Player = go;
-                _hudHealthLine.PlayerHealth = go.GetComponent<Health>();
+                player = Instantiate(_prefabPlayerCharacter);
+                player.transform.position = new Vector3(child.transform.position.x, child.transform.position.y + 2);
+                _Camera.Player = player;
+                _hudHealthLine.PlayerHealth = player.GetComponent<Health>();
+            }
+        }
+        foreach (Transform child2 in _listObject.transform) {
+            if (string.Compare(child2.name.Replace("(Clone)", ""), _prefabEnemies.name, StringComparison.Ordinal) == 0) {
+                var iaInterpretor = child2.GetComponentInChildren<IAInterpretator>();
+                if (player != null)
+                    iaInterpretor.Player = player;
             }
         }
     }

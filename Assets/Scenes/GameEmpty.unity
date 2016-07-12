@@ -416,6 +416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _listObject: {fileID: 21337597}
   _prefabSpawner: {fileID: 112768, guid: 309861c5b3788d94689e615e2aaec602, type: 2}
+  _prefabEnemies: {fileID: 168686, guid: 0f13a94cc3383284ebe576267831a815, type: 2}
   _prefabPlayerCharacter: {fileID: 168686, guid: df279b7e43a42eb4ca8a02e630018cf0,
     type: 2}
   _Camera: {fileID: 1700037494}
