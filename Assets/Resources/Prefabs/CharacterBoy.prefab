@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _maxSpeed: 8
-  _jumpForce: 450
+  _jumpForce: 350
   _airControl: 1
   _whatIsGround:
     serializedVersion: 2

@@ -53,9 +53,9 @@ public class IAInterpretator : MonoBehaviour
     }
     void OnTriggerExit2D(Collider2D triggered)
     {
-        Debug.Log("exit");
         if (triggered == _playerColl && _isIn)
         {
+            Debug.Log("exit");
             _anim.SetBool("isPunchRight", false);
             _isIn = false;
             AddStat(_actualInterpretor);
