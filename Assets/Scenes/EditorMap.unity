@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameObjectListOnMap: {fileID: 721038033}
-  _gameObjectListPrefab: {fileID: 0}
+  _gameObjectListPrefab: {fileID: 1149526998}
 --- !u!1 &160818101
 GameObject:
   m_ObjectHideFlags: 0
