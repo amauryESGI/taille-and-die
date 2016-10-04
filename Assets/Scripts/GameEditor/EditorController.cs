@@ -12,13 +12,13 @@ public class EditorController : MonoBehaviour {
         foreach (Transform prefab in _gameObjectListPrefab.transform) {
             var lp = prefab.GetComponentInChildren<LoadPrefab>();
 
-            if(lp==null || lp.PrefablToClone == null)
+            if(lp==null)
                 continue;
 
             int numObject = 0;
 
             foreach (Transform child in _gameObjectListOnMap.transform) {
-                if (child.name == lp.PrefablToClone.name + "(Clone)")
+                if (child.name == lp.Name + "(Clone)")
                     numObject++;
             }
             lp.NumberOfObject = numObject;
