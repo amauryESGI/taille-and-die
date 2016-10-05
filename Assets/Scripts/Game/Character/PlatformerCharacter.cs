@@ -60,11 +60,6 @@ namespace Platformer.Character {
         }
 
         public void Move(float move, bool jump) {
-            // If crouching, check to see if the character can stand up
-            //if (_anim.GetBool("Crouch")) {
-            //    // If the character has a ceiling preventing them from standing up, keep them crouching
-            //    if (Physics2D.OverlapCircle(_ceilingCheck.position, _ceilingRadius, _whatIsGround))
-            //}
 
             // only control the player if grounded or airControl is turned on
             if (_grounded || _airControl) {

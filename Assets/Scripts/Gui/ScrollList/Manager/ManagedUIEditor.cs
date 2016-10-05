@@ -18,6 +18,7 @@ namespace Assets.Scripts.Gui.ScrollList.Manager {
                 // ... initialyze data.
                 button.GameObjectListOnMap = _gameObjectListOnMap;
                 button.PrefabName.text = items[i].Name;
+                Debug.Log(items[i].PathPrefab);
                 button.Prefab = Resources.Load(items[i].PathPrefab, typeof(GameObject)) as GameObject;
                 button.Preview.sprite = Resources.Load(items[i].PathPreview, typeof(Sprite)) as Sprite;
 

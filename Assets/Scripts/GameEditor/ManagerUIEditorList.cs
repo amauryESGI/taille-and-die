@@ -33,8 +33,8 @@ public class ManagerUIEditorList : MonoBehaviour {
 
             items.Add(new ItemInformationPrefabUIEditor {
                 Name = ReadValue("Name"),
-                PathPrefab = "Prefab/" + ReadValue("PrefabName"),
-                PathPreview = "Sprit/" + ReadValue("PreviewName"),
+                PathPrefab = "Prefabs/" + ReadValue("PrefabName"),
+                PathPreview = "Sprite/" + ReadValue("PreviewName"),
                 LimiteNumberObject = int.Parse(ReadValue("LimNumberObject"))
             });
         }
