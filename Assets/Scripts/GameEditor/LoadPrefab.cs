@@ -33,7 +33,6 @@ public class LoadPrefab : MonoBehaviour {
 
     void Awake() {
         Id = System.Threading.Interlocked.Increment(ref _idCounter);
-        Debug.Log(_sampleButton.PrefabName.text + " id : " + Id);
         if (_sampleButton.Prefab == null && _sampleButton.PrefabName.text == "Destroy")
             IdDestroy = Id;
     }
