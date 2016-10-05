@@ -35,4 +35,10 @@ public class Health : MonoBehaviour {
     public void Damage(int dmg) {
         _curHealth -= dmg;
     }
+
+    public void Heal(int heal) {
+        _curHealth = _curHealth + heal < _maxHealth
+            ? _curHealth + heal
+            : _maxHealth;
+    }
 }
