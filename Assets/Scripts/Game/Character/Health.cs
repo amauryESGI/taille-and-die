@@ -1,10 +1,12 @@
-﻿using System.Collections;
+﻿using Platformer.Character;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour {
-    [SerializeField] private int _curHealth;
-    [SerializeField] private int _maxHealth;
+    [SerializeField]
+    private int _curHealth;
+    [SerializeField]
+    private int _maxHealth;
 
     void Start() {
         _curHealth = _maxHealth;
@@ -20,8 +22,11 @@ public class Health : MonoBehaviour {
     void Die() {
         Debug.Log("Is dead !");
 
-        // Restart
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        if (transform.GetComponent<PlatformerUserControl>())
+            // Restart
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        else
+            Destroy(transform.gameObject);
     }
 
     public int getMaxHealth() { return _maxHealth; }

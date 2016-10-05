@@ -6,37 +6,37 @@ namespace Platformer.Character {
     public class PlatformerCharacter : MonoBehaviour {
         private bool _facingRight = true;                    // For determining which way the player is currently facing.
 
-        [SerializeField] private float _maxSpeed = 10f;      // The fastest the player can travel in the x axis.
-        [SerializeField] private float _jumpForce = 400f;    // Amount of force added when the player jumps.	
+        [SerializeField]
+        private float _maxSpeed = 10f;      // The fastest the player can travel in the x axis.
+        [SerializeField]
+        private float _jumpForce = 400f;    // Amount of force added when the player jumps.	
 
         //[Range(0, 1)][SerializeField] private float _crouchSpeed = .36f;
-                                                            // Amount of maxSpeed applied to crouching movement. 1 = 100%
+        // Amount of maxSpeed applied to crouching movement. 1 = 100%
 
-        [SerializeField] private bool _airControl = false;   // Whether or not a player can steer while jumping;
-        [SerializeField] private LayerMask _whatIsGround;    // A mask determining what is ground to the character
+        [SerializeField]
+        private bool _airControl = false;   // Whether or not a player can steer while jumping;
+        [SerializeField]
+        private LayerMask _whatIsGround;    // A mask determining what is ground to the character
 
-        [SerializeField] private Transform _groundCheck;     // A position marking where to check if the player is grounded.
+        [SerializeField]
+        private Transform _groundCheck;     // A position marking where to check if the player is grounded.
         private float _groundedRadius = .2f;                 // Radius of the overlap circle to determine if grounded
         private bool _grounded = false;                      // Whether or not the player is grounded.
-        [SerializeField] private Transform _ceilingCheck;    // A position marking where to check for ceilings
+        [SerializeField]
+        private Transform _ceilingCheck;    // A position marking where to check for ceilings
         private float _ceilingRadius = .01f;                 // Radius of the overlap circle to determine if the player can stand up
 
-        [SerializeField] private Animator _anim;             // Reference to the player's animator component.
-        [SerializeField] private Rigidbody2D _rigidbody;
+        [SerializeField]
+        private Animator _anim;             // Reference to the player's animator component.
+        [SerializeField]
+        private Rigidbody2D _rigidbody;
 
-        private bool  _isKnockback = false;
+        private bool _isKnockback = false;
 
-        public bool Grounded
-        {
-            get
-            {
-                return _grounded;
-            }
-
-            set
-            {
-                _grounded = value;
-            }
+        public bool Grounded {
+            get { return _grounded; }
+            set { _grounded = value; }
         }
 
         private void FixedUpdate() {
@@ -59,16 +59,12 @@ namespace Platformer.Character {
             _isKnockback = false;
         }
 
-        public void Move(float move, bool crouch, bool jump) {
+        public void Move(float move, bool jump) {
             // If crouching, check to see if the character can stand up
-            if (!crouch && _anim.GetBool("Crouch")) {
-                // If the character has a ceiling preventing them from standing up, keep them crouching
-                if (Physics2D.OverlapCircle(_ceilingCheck.position, _ceilingRadius, _whatIsGround))
-                    crouch = true;
-            }
-
-            // Set whether or not the character is crouching in the animator
-            _anim.SetBool("Crouch", crouch);
+            //if (_anim.GetBool("Crouch")) {
+            //    // If the character has a ceiling preventing them from standing up, keep them crouching
+            //    if (Physics2D.OverlapCircle(_ceilingCheck.position, _ceilingRadius, _whatIsGround))
+            //}
 
             // only control the player if grounded or airControl is turned on
             if (_grounded || _airControl) {

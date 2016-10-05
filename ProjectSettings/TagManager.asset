@@ -9,6 +9,7 @@ TagManager:
   - Smelly
   - Fire
   - MaskUI
+  - Ennemy
   layers:
   - Default
   - TransparentFX

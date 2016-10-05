@@ -19,17 +19,12 @@ namespace Platformer.Character {
         }
 
         private void FixedUpdate() {
-            bool crouch = CrossPlatformInputManager.GetButton("Crouch");
             float h = 0f;
-            if (!crouch) {
-                if (CrossPlatformInputManager.GetButton("PunshLeft"))
-                    _attaque.PunshLeft();
-                else if (CrossPlatformInputManager.GetButton("PunshRight"))
-                    _attaque.PunshRight();
+                if (CrossPlatformInputManager.GetButton("Punsh"))
+                    _attaque.Punsh();
                 else
                     h = CrossPlatformInputManager.GetAxis("Horizontal");
-            }
-            _character.Move(h, crouch, jump);
+            _character.Move(h, jump);
             jump = false;
         }
     }
