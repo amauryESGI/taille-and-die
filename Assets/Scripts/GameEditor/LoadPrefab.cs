@@ -58,8 +58,7 @@ public class LoadPrefab : MonoBehaviour {
             NumberOfObject++;
             vecList.Add(clone.transform.position);
             if (clone.GetComponent<Rigidbody2D>() != null)
-                clone.GetComponent<Rigidbody2D>().isKinematic = true;
-
+                clone.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
             Onclick();
         }
     }
