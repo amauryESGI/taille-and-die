@@ -53,12 +53,13 @@ public class LoadPrefab : MonoBehaviour {
         var vec2 = new Vector2(Mathf.Floor(clone.transform.position.x) + 0.5f, Mathf.Floor(clone.transform.position.y) + 0.5f);
 
         if (!vecList.Contains(vec2)) {
+            Debug.Log(vec2);
             clone.transform.position = new Vector3(vec2.x, vec2.y, 0);
             clone.transform.parent = _sampleButton.GameObjectListOnMap.transform;
             NumberOfObject++;
-            vecList.Add(clone.transform.position);
+            vecList.Add(vec2);
             if (clone.GetComponent<Rigidbody2D>() != null)
-                clone.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
+                clone.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
             Onclick();
         }
     }
