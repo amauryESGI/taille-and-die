@@ -5,6 +5,8 @@
   "button_exit": "Quitter",
   "button_save": "Sauvegarder",
   "button_ok": "Ok",
+  "button_next": "Continuer",
+  "button_clear": "Remettre a zero",
   "menu_main": "Menu Principal",
   "menu_main_button_play": "Jouer",
   "menu_main_button_editor": "Editeur de niveau",
@@ -23,6 +25,7 @@
   "menu_editor_button_load_lvl": "Charger un niveau",
   "menu_editor_load_header_list_name": "Nom",
   "menu_editor_load_header_list_date": "Derniere modification",
+  "menu_win": "Victoir",
 
   "confirm_exit": "Si vous quittez sans sauvegarder, vous perdrez toute votre progression. Voulez-vous vraiment quitter ?",
   "ask_name_to_saving": "Comment voulez-vous nommer votre niveau ?",

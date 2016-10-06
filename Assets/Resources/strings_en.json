@@ -5,6 +5,8 @@
   "button_exit": "Exit",
   "button_save": "Save",
   "button_ok": "Ok",
+  "button_next": "Next",
+  "button_clear": "Clear",
   "menu_main": "Main Menu",
   "menu_main_button_play": "Play",
   "menu_main_button_editor": "Level Editor",
@@ -23,6 +25,7 @@
   "menu_editor_button_load_lvl": "Load level",
   "menu_editor_load_header_list_name": "Name",
   "menu_editor_load_header_list_date": "Last time edited",
+  "menu_win": "Winner",
 
   "confirm_exit": "If you exit without saving, you lose all your progress. Do you really want to quit?",
   "ask_name_to_saving": "How do you name your level?",
