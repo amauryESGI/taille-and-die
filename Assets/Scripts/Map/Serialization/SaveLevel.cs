@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections.Generic;
 using System.IO;
 using System.Xml.Serialization;
@@ -51,9 +52,14 @@ namespace Serialization {
             }
 
             foreach (PrefabDetails objDetails in XmlData) {
-                var obj = Instantiate(Resources.Load("Prefabs/" + objDetails.OriginPrefab)) as GameObject;
-                obj.transform.position = objDetails.Pos;
-                obj.transform.parent = _gameObjectSerialized.transform;
+                try {
+                    var obj = Instantiate(Resources.Load("Prefabs/" + objDetails.OriginPrefab)) as GameObject;
+                    obj.transform.position = objDetails.Pos;
+                    obj.transform.parent = _gameObjectSerialized.transform;
+                } catch (Exception) {
+                    Debug.Log("Error on Instantiate : " + objDetails.OriginPrefab);
+                    throw;
+                }
             }
         }
 
