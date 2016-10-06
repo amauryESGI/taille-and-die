@@ -55,7 +55,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75596af92ebec424cb5eb3aa85483d45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sceneWin: Lobby
+  _sceneWin: Win
 --- !u!212 &21200992
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -106,6 +106,10 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: 13eb2969a8dbf22429dc6ca972f1c831,
         type: 3}
+    - target: {fileID: 0}
+      propertyPath: _sceneWin
+      value: Win
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 182298}
