@@ -23,6 +23,7 @@ public class IAInterpretator : MonoBehaviour
     Platformer.Character.PlatformerCharacter platformerChar;
     Rigidbody2D _rigidbody, _playerRigibody;
     Collider2D _playerColl;
+    [SerializeField]
     SpriteRenderer _mySkin;
     estate _actualInterpretor;
     private bool _isKnockback = false;
@@ -39,7 +40,7 @@ public class IAInterpretator : MonoBehaviour
         Debug.Log(_playerRigibody);
         platformerChar = Player.GetComponent<Platformer.Character.PlatformerCharacter>();
         _playerColl = Player.GetComponent<Collider2D>();
-        _mySkin = transform.GetComponentInParent<SpriteRenderer>();
+        //_mySkin = transform.GetComponentInParent<SpriteRenderer>();
 	}
 
     void OnTriggerEnter2D(Collider2D triggered)
