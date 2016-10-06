@@ -32,6 +32,9 @@ namespace Platformer.Character {
         [SerializeField]
         private Rigidbody2D _rigidbody;
 
+        [SerializeField]
+        private float _flipOffsetX=0;
+
         private bool _isKnockback = false;
 
         public bool Grounded {
@@ -100,6 +103,18 @@ namespace Platformer.Character {
             Vector3 theScale = transform.localScale;
             theScale.x *= -1;
             transform.localScale = theScale;
+
+            float offsetX =0;
+            if (transform.localScale.x > 0)
+                offsetX = _flipOffsetX;
+            else
+                offsetX = -_flipOffsetX;
+
+            // Allow to center sprite not center.
+            transform.position = new Vector3(
+                transform.position.x + offsetX,
+                transform.position.y
+                );
         }
     }
 }
